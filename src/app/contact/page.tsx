@@ -71,8 +71,16 @@ export default function Contact() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.6 }}
         >
-          <p className="text-purple-400 font-semibold mb-2">Let's build the future of work together!</p>
-          <p className="text-gray-400">Transforming ideas into intelligent solutions.</p>
+          <h3 className="text-2xl font-bold mb-4">Let's Chat</h3>
+          <a 
+            href="https://calendly.com/huzaifainspires/discovery-call"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="bg-purple-600 hover:bg-purple-700 text-white py-3 px-6 rounded-md transition duration-300">
+              Schedule Your Free Consultation
+            </button>
+          </a>
         </motion.div>
       </div>
     </main>

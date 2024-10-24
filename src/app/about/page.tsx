@@ -95,17 +95,17 @@ export default function About() {
             Looking to optimize your business operations with AI? Let's discuss how we can leverage technology to achieve your goals.
           </p>
           <a 
-  href="https://calendly.com/huzaifainspires/discovery-call"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-block"
->
-  <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-2 rounded-md">
-    Schedule Your Free Consultation
-  </Button>
-</a>
+            href="https://calendly.com/huzaifainspires/discovery-call"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
+          >
+            <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-2 rounded-md">
+              Schedule Your Free Consultation
+            </Button>
+          </a>
+        </div>
       </div>
-    </div>
     </div>
   );
 }
