@@ -12,7 +12,7 @@ export default function About() {
         <div className="space-y-6 mb-12">
           <h2 className="text-2xl md:text-3xl font-semibold text-purple-500 text-center">Personal Story</h2>
           <p className="text-gray-300 leading-relaxed">
-            I bridge the gap between cutting-edge AI technology and real-world business applications. As a full-stack AI developer and AI & automations expert, I've spent the last 1.5 years mastering the practical applications of AI tools while continuing intensive technical training at my full-stack AI dev bootcamp.
+            I bridge the gap between cutting-edge AI technology and real-world business applications. As a full-stack AI developer and AI & automations expert, I've spent the last 2 years mastering the practical applications of AI tools while continuing intensive technical training at my full-stack AI dev bootcamp.
           </p>
           <p className="text-gray-300 leading-relaxed">
             My journey began with a simple realization: most founders & businesses waste countless hours on tasks that could be automated. This insight drove me to master both the technical and practical aspects of AI implementation, from Next.js & TypeScript to advanced prompt engineering & workflow optimization.
