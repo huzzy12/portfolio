@@ -239,6 +239,90 @@ export default function Home() {
                 </Link>
               </div>
             </div>
+            
+            {/* AI SpeakSensei */}
+            <div className="glass-card overflow-hidden group hover-scale">
+              <div className="relative h-48 overflow-hidden">
+                <Image 
+                  src="/speaksensei.png" 
+                  alt="AI SpeakSensei" 
+                  width={600} 
+                  height={300} 
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[var(--surface)] to-transparent opacity-60"></div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-3 group-hover:text-[var(--primary)] transition-colors">AI SpeakSensei</h3>
+                <p className="text-[var(--text-secondary)] line-clamp-2 mb-4">AI app that analyzes your speaking/video & scores your skills with actionable insights.</p>
+                <Link href="https://app-speaksensei.vercel.app" className="flex items-center text-[var(--primary)] font-medium gap-2 group/link">
+                  View Project <ExternalLink className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
+                </Link>
+              </div>
+            </div>
+            
+            {/* Complete Unit Converter */}
+            <div className="glass-card overflow-hidden group hover-scale">
+              <div className="relative h-48 overflow-hidden">
+                <Image 
+                  src="/complete-uc.png" 
+                  alt="Complete Unit Converter" 
+                  width={600} 
+                  height={300} 
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[var(--surface)] to-transparent opacity-60"></div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-3 group-hover:text-[var(--primary)] transition-colors">Complete Unit Converter</h3>
+                <p className="text-[var(--text-secondary)] line-clamp-2 mb-4">A unit converter app covering all units for daily, scientific, and engineering needs.</p>
+                <Link href="https://complete-uc.streamlit.app" className="flex items-center text-[var(--primary)] font-medium gap-2 group/link">
+                  View Project <ExternalLink className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
+                </Link>
+              </div>
+            </div>
+            
+            {/* Password Prof */}
+            <div className="glass-card overflow-hidden group hover-scale">
+              <div className="relative h-48 overflow-hidden">
+                <Image 
+                  src="/password-prof.png" 
+                  alt="Password Prof" 
+                  width={600} 
+                  height={300} 
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[var(--surface)] to-transparent opacity-60"></div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-3 group-hover:text-[var(--primary)] transition-colors">Password Prof</h3>
+                <p className="text-[var(--text-secondary)] line-clamp-2 mb-4">Password analyzer & secure custom password generator for strong, safe credentials.</p>
+                <Link href="https://password-prof.streamlit.app" className="flex items-center text-[var(--primary)] font-medium gap-2 group/link">
+                  View Project <ExternalLink className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
+                </Link>
+              </div>
+            </div>
+            
+            {/* Secure Your Data */}
+            <div className="glass-card overflow-hidden group hover-scale">
+              <div className="relative h-48 overflow-hidden">
+                <Image 
+                  src="/secure-your-data.png" 
+                  alt="Secure Your Data" 
+                  width={600} 
+                  height={300} 
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[var(--surface)] to-transparent opacity-60"></div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-3 group-hover:text-[var(--primary)] transition-colors">Secure Your Data</h3>
+                <p className="text-[var(--text-secondary)] line-clamp-2 mb-4">Streamlit-based secure data storage/retrieval with passkey encryption, attempt limits, and reauthorization.</p>
+                <Link href="https://secure-your-data.streamlit.app" className="flex items-center text-[var(--primary)] font-medium gap-2 group/link">
+                  View Project <ExternalLink className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
